@@ -32,6 +32,7 @@ func staleSlice() {
 	s3 = append(s3, '3')
 
 	fmt.Printf("%q %q %q\n", s1, s2, s3)
+	// "dir3" "dir3" "dir3"
 }
 
 func newSlice() {
@@ -45,4 +46,5 @@ func newSlice() {
 	s3 = append(s3, '3')
 
 	fmt.Printf("%q %q %q\n", s1, s2, s3)
+	// "dir1" "dir2" "dir3"
 }

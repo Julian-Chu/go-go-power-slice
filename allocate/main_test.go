@@ -2,8 +2,9 @@ package allocate
 
 import "testing"
 
-const size = 1024
 const size8192 = 1024 * 8
+
+const size = 1024
 
 func Benchmark_Default(b *testing.B) {
 	for i := 0; i < b.N; i++ {
