@@ -14,7 +14,6 @@ func BenchmarkQueue1(b *testing.B) {
 			}
 			q = append(q, "conn")
 		}
-
 	}
 }
 
@@ -29,6 +28,5 @@ func BenchmarkQueue2(b *testing.B) {
 			}
 			q = append(q, "conn")
 		}
-
 	}
 }

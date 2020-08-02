@@ -12,5 +12,13 @@ import "fmt"
 func main() {
 	arr:=[5]int{}
 	s:=arr[:3]
-	fmt.Printf("len: %v, cap: %v", len(s),cap(s))
+	fmt.Printf("len: %v, cap: %v\n", len(s),cap(s))
+
+	str:="hello world"
+	var bs []byte
+
+	bs = append(bs, str...)
+	copy(bs, str)
+	fmt.Printf("%s\n",bs)
+
 }
